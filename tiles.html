@@ -1,0 +1,650 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    
+    <!-- Meta Data SEO -->
+    <title>قرميد إسباني وإيطالي | خيام - مظلات - سواتر الأحساء 2026</title>
+    <meta name="description" content="أكبر مجموعة صور لتركيب القرميد في الأحساء - قرميد إسباني، قرميد إيطالي، قرميد معدني، قرميد فخاري. تنفيذ بأعلى جودة وأفخم التصاميم.">
+    <meta name="keywords" content="قرميد الأحساء, قرميد إسباني, قرميد إيطالي, قرميد معدني, قرميد فخاري, تركيب قرميد, قرميد الهفوف, قرميد المبرز">
+    <meta name="author" content="مؤسسة خيام مظلات سواتر">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="قرميد - خيام مظلات سواتر الأحساء">
+    <meta property="og:description" content="تصميم وتنفيذ القرميد في الأحساء - شاهد أعمالنا">
+    <meta property="og:image" content="https://i.postimg.cc/BQkFk3MH/m1jpg.jpg">
+    <meta property="og:image:alt" content="شعار مؤسسة خيام مظلات سواتر">
+    <meta property="og:url" content="https://ahsashades-coder.github.io/ahsa-shadows-2026/tiles.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.postimg.cc/BQkFk3MH/m1jpg.jpg" type="image/jpeg">
+    
+    <!-- Fonts & Libraries -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #0a1d37;
+            --accent: #c5a059;
+            --white: #ffffff;
+            --shadow-sm: 0 5px 15px rgba(0,0,0,0.1);
+            --shadow-md: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--primary);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        a { text-decoration: none; }
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            display: block;
+        }
+
+        /* الشريط العلوي */
+        .top-bar {
+            background: var(--primary);
+            padding: 0.75rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--accent);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .top-bar .phone {
+            color: var(--accent);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+        }
+        .social-icons a {
+            color: var(--white);
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        /* الهيدر */
+        header {
+            background: var(--primary);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--accent);
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .logo-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid var(--accent);
+            object-fit: cover;
+        }
+        .brand-text h1 {
+            font-size: 1.3rem;
+            color: var(--white);
+            font-weight: 900;
+        }
+        .brand-text p {
+            font-size: 0.85rem;
+            color: var(--accent);
+            font-weight: 700;
+        }
+        .call-btn {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 0.7rem 1.8rem;
+            border-radius: 2rem;
+            font-weight: 900;
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: 0.3s;
+            white-space: nowrap;
+        }
+        .call-btn:hover {
+            background: transparent;
+            color: var(--accent);
+            border-color: var(--accent);
+            transform: scale(1.05);
+        }
+
+        /* Hero section بخلفية من أول صورة قرميد */
+        .hero {
+            position: relative;
+            height: 400px;
+            background-image: url('https://i.postimg.cc/fLy25ZH3/5447603825691790814-119.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(10, 29, 55, 0.6);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+        .hero-content h2 {
+            font-size: 2.8rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .hero-btns {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .hero-btn {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 1rem;
+            border: 2px solid var(--accent);
+            transition: 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            white-space: nowrap;
+            min-width: 140px;
+        }
+        .hero-btn:hover {
+            background: transparent;
+            color: var(--accent);
+            transform: translateY(-3px);
+        }
+        .hero-btn-outline {
+            background: transparent;
+            color: var(--accent);
+        }
+
+        /* معرض صور القرميد (موحد) */
+        .gallery-section {
+            padding: 3rem 5%;
+            background: var(--primary);
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        .section-title h2 {
+            font-size: 2rem;
+            color: var(--white);
+            font-weight: 900;
+        }
+        .accent {
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+            margin: 0.5rem auto 0;
+            border-radius: 2px;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            position: relative;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 2px solid var(--accent);
+            transition: 0.3s;
+        }
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-md);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .gallery-label {
+            padding: 1.2rem;
+            text-align: center;
+            font-weight: 800;
+            font-size: 1.1rem;
+            color: var(--white);
+        }
+
+        /* العلامة المائية */
+        .watermark {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            text-align: center;
+            padding: 8px 5px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 0 rgba(0,0,0,0.5), 4px 4px 0 rgba(0,0,0,0.3);
+            border-top: 2px solid var(--accent);
+            border-bottom: 2px solid var(--accent);
+            z-index: 5;
+            pointer-events: none;
+        }
+
+        /* مميزات القرميد */
+        .features-section {
+            padding: 3rem 5%;
+            background: var(--primary);
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .feature-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            border: 1px solid rgba(197,160,89,0.3);
+            transition: 0.3s;
+        }
+        .feature-item:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        .feature-item h3 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .feature-item p {
+            color: #ddd;
+        }
+
+        /* قسم الكلمات المفتاحية */
+        .keywords-section {
+            padding: 3rem 5%;
+            background: var(--primary);
+        }
+        .keywords-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .keyword-tag {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            transition: 0.3s;
+        }
+        .keyword-tag:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+
+        /* فوتر */
+        .footer {
+            background: var(--primary);
+            padding: 3rem 5% 1.5rem;
+            border-top: 4px solid var(--accent);
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .footer-col h3 {
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .footer-col p, .footer-col a {
+            color: #ccc;
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+        .footer-col a:hover {
+            color: var(--accent);
+        }
+        .social-footer {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-footer a {
+            background: rgba(255,255,255,0.1);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .social-footer a:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 1.5rem;
+            text-align: center;
+            color: #aaa;
+        }
+
+        /* أزرار عائمة */
+        .floating-buttons {
+            position: fixed;
+            bottom: 30px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 2000;
+        }
+        .float-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 26px;
+            box-shadow: var(--shadow-md);
+            transition: 0.3s;
+        }
+        .float-btn:hover {
+            transform: scale(1.1) translateY(-5px);
+        }
+        .whatsapp-float { background: #25d366; }
+        .phone-float { background: var(--primary); border: 2px solid var(--accent); }
+
+        @media (max-width: 768px) {
+            .hero { height: 350px; }
+            .hero-content h2 { font-size: 2rem; }
+            .hero-content p { font-size: 1rem; }
+            .brand-text h1 { font-size: 1rem; }
+            .call-btn span { display: none; }
+            .hero-btn { min-width: 120px; font-size: 0.9rem; }
+            .watermark { font-size: 0.8rem; }
+            .gallery-item img { height: 200px; }
+        }
+        @media (max-width: 480px) {
+            .hero-btn { min-width: 100px; font-size: 0.8rem; }
+            .watermark { font-size: 0.7rem; padding: 5px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <a href="tel:0551987351" class="phone"><i class="fas fa-phone-alt"></i> 0551987351</a>
+        <div class="social-icons">
+            <a href="https://wa.me/966551987351" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@ahsa.shades" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/al_ahsa_mizalaat" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/solomons456" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/share/17bH96Jg11/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+    <header>
+        <div class="brand">
+            <img src="https://i.postimg.cc/BQkFk3MH/m1jpg.jpg" alt="شعار مؤسسة خيام مظلات سواتر الأحساء" class="logo-img">
+            <div class="brand-text">
+                <h1>قرميد إسباني وإيطالي</h1>
+                <p>خيام - مظلات - سواتر | الأحساء 2026</p>
+            </div>
+        </div>
+        <a href="tel:0551987351" class="call-btn"><i class="fas fa-phone-alt"></i> <span>اتصل الآن</span></a>
+    </header>
+
+    <!-- Hero section بخلفية من أول صورة قرميد -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>قرميد فاخر</h2>
+            <p>مجموعة من صور تنفيذاتنا للقرميد بأنواعه المختلفة في الأحساء</p>
+            <div class="hero-btns">
+                <a href="tel:0551987351" class="hero-btn"><i class="fas fa-phone-alt"></i> اتصل الآن</a>
+                <a href="https://wa.me/966551987351" class="hero-btn hero-btn-outline"><i class="fab fa-whatsapp"></i> واتساب</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- معرض صور القرميد -->
+    <section class="gallery-section">
+        <div class="section-title">
+            <h2>معرض صور القرميد</h2>
+            <div class="accent"></div>
+        </div>
+        <div class="gallery-grid" id="galleryContainer"></div>
+    </section>
+
+    <section class="features-section">
+        <div class="section-title">
+            <h2>أنواع القرميد التي ننفذها</h2>
+            <div class="accent"></div>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-flag"></i></div>
+                <h3>قرميد إسباني</h3>
+                <p>أفخم الأنواع بتصاميم كلاسيكية راقية.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-pizza"></i></div>
+                <h3>قرميد إيطالي</h3>
+                <p>جودة عالية وألوان زاهية ثابتة.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-cubes"></i></div>
+                <h3>قرميد معدني</h3>
+                <p>خفيف الوزن وعازل ممتاز للحرارة.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-mountain"></i></div>
+                <h3>قرميد فخاري</h3>
+                <p>طبيعي 100% يعزل الحرارة والرطوبة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="keywords-section">
+        <div class="section-title">
+            <h2>خدمات القرميد في الأحساء</h2>
+            <div class="accent"></div>
+        </div>
+        <div class="keywords-container">
+            <span class="keyword-tag">قرميد الأحساء</span>
+            <span class="keyword-tag">قرميد الهفوف</span>
+            <span class="keyword-tag">قرميد المبرز</span>
+            <span class="keyword-tag">قرميد إسباني</span>
+            <span class="keyword-tag">قرميد إيطالي</span>
+            <span class="keyword-tag">قرميد معدني</span>
+            <span class="keyword-tag">قرميد فخاري</span>
+            <span class="keyword-tag">تركيب قرميد</span>
+            <span class="keyword-tag">أفضل قرميد</span>
+            <span class="keyword-tag">مقاول قرميد</span>
+            <span class="keyword-tag">قرميد فلل</span>
+            <span class="keyword-tag">قرميد أسطح</span>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>عن المؤسسة</h3>
+                <p>متخصصون في تركيب القرميد بأفخم الأنواع في الأحساء والمنطقة الشرقية. تنفيذ أكثر من 100 مشروع.</p>
+                <div class="social-footer">
+                    <a href="https://wa.me/966551987351"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com/@ahsa.shades"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/al_ahsa_mizalaat"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/solomons456"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/share/17bH96Jg11/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <p><a href="index.html">الرئيسية</a></p>
+                <p><a href="hangars.html">هناجر</a></p>
+                <p><a href="shades.html">مظلات</a></p>
+                <p><a href="screens.html">سواتر</a></p>
+                <p><a href="tents.html">خيام</a></p>
+                <p><a href="pergolas.html">برجولات</a></p>
+            </div>
+            <div class="footer-col">
+                <h3>اتصل بنا</h3>
+                <p><i class="fas fa-phone"></i> 0551987351</p>
+                <p><i class="fab fa-whatsapp"></i> 0551987351</p>
+                <p><i class="fas fa-map-marker-alt"></i> الأحساء، الهفوف</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 خيام - مظلات - سواتر | تصميم سليمان الحكمي</p>
+        </div>
+    </footer>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/966551987351" class="float-btn whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:0551987351" class="float-btn phone-float"><i class="fas fa-phone-alt"></i></a>
+    </div>
+
+    <script>
+        // قائمة صور القرميد المرسلة من المستخدم
+        const tileImages = [
+            "https://i.postimg.cc/fLy25ZH3/5447603825691790814-119.jpg",
+            "https://i.postimg.cc/FRzWGmPY/5447603825691790814-121.jpg",
+            "https://i.postimg.cc/SsRTVqZQ/5447603825691790818-121.jpg",
+            "https://i.postimg.cc/PxJ3Kh6q/5447603825691790819-121.jpg",
+            "https://i.postimg.cc/wvMfFHWd/5447603825691790820-121.jpg",
+            "https://i.postimg.cc/B6bYNsh0/5447603825691790821-121.jpg",
+            "https://i.postimg.cc/XJqHx32M/5447603825691790822-121.jpg",
+            "https://i.postimg.cc/ydxQnBfC/5447603825691790825-121.jpg"
+        ];
+
+        // كلمات مفتاحية متنوعة للقرميد
+        const titleKeywords = [
+            "قرميد إسباني فاخر",
+            "قرميد إيطالي أصلي",
+            "قرميد معدني معزول",
+            "قرميد فخاري طبيعي",
+            "تركيب قرميد بجودة عالية",
+            "أفضل أنواع القرميد",
+            "قرميد أسطح فلل",
+            "مقاول قرميد بالاحساء",
+            "قرميد ألوان ثابتة",
+            "قرميد عازل للحرارة",
+            "قرميد ملكي للقصور",
+            "ارخص اسعار القرميد",
+            "قرميد وطني فخاري",
+            "ديكورات قرميد مودرن",
+            "قرميد أحمر كلاسيكي",
+            "قرميد أسود أنيق",
+            "قرميد كحلي ملكي",
+            "واجهات قرميد",
+            "قرميد للأسطح الخارجية",
+            "تركيب قرميد الهفوف",
+            "قرميد المبرز بأقل سعر",
+            "افضل قرميد بالشرقية",
+            "قرميد مقاوم للأمطار",
+            "قرميد اسباني 2026"
+        ];
+
+        const galleryContainer = document.getElementById('galleryContainer');
+
+        // إنشاء عناصر الصور
+        tileImages.forEach((url, index) => {
+            if (url && !url.endsWith('/')) {
+                const item = document.createElement('div');
+                item.className = 'gallery-item';
+                
+                const img = document.createElement('img');
+                img.src = url;
+                img.alt = titleKeywords[index % titleKeywords.length];
+                img.loading = 'lazy';
+                img.onerror = function() { this.parentElement.style.display = 'none'; };
+                
+                const watermark = document.createElement('div');
+                watermark.className = 'watermark';
+                watermark.textContent = '0551987351 | خيام - مظلات - سواتر';
+                
+                const label = document.createElement('div');
+                label.className = 'gallery-label';
+                label.textContent = titleKeywords[index % titleKeywords.length];
+                
+                item.appendChild(img);
+                item.appendChild(watermark);
+                item.appendChild(label);
+                
+                galleryContainer.appendChild(item);
+            }
+        });
+    </script>
+</body>
+</html>

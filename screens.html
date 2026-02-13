@@ -1,0 +1,783 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    
+    <!-- Meta Data SEO -->
+    <title>سواتر حديد وليزر | خيام - مظلات - سواتر الأحساء 2026</title>
+    <meta name="description" content="أكبر مجموعة صور لتنفيذ السواتر بأنواعها في الأحساء - سواتر حديد، سواتر ليزر، سواتر خشبية، سواتر قماش. تنفيذ بأعلى جودة وأفضل الأسعار.">
+    <meta name="keywords" content="سواتر الأحساء, سواتر حديد, سواتر ليزر, سواتر خشبية, سواتر قماش, تركيب سواتر, سواتر الهفوف, سواتر المبرز">
+    <meta name="author" content="مؤسسة خيام مظلات سواتر">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="سواتر - خيام مظلات سواتر الأحساء">
+    <meta property="og:description" content="تصميم وتنفيذ السواتر في الأحساء - شاهد أعمالنا">
+    <meta property="og:image" content="https://i.postimg.cc/BQkFk3MH/m1jpg.jpg">
+    <meta property="og:image:alt" content="شعار مؤسسة خيام مظلات سواتر">
+    <meta property="og:url" content="https://ahsashades-coder.github.io/ahsa-shadows-2026/screens.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.postimg.cc/BQkFk3MH/m1jpg.jpg" type="image/jpeg">
+    
+    <!-- Fonts & Libraries -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #0a1d37;
+            --accent: #c5a059;
+            --white: #ffffff;
+            --shadow-sm: 0 5px 15px rgba(0,0,0,0.1);
+            --shadow-md: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--primary);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        a { text-decoration: none; }
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            display: block;
+        }
+
+        /* الشريط العلوي */
+        .top-bar {
+            background: var(--primary);
+            padding: 0.75rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--accent);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .top-bar .phone {
+            color: var(--accent);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+        }
+        .social-icons a {
+            color: var(--white);
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        /* الهيدر */
+        header {
+            background: var(--primary);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--accent);
+        }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .logo-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid var(--accent);
+            object-fit: cover;
+        }
+        .brand-text h1 {
+            font-size: 1.3rem;
+            color: var(--white);
+            font-weight: 900;
+        }
+        .brand-text p {
+            font-size: 0.85rem;
+            color: var(--accent);
+            font-weight: 700;
+        }
+        .call-btn {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 0.7rem 1.8rem;
+            border-radius: 2rem;
+            font-weight: 900;
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: 0.3s;
+            white-space: nowrap;
+        }
+        .call-btn:hover {
+            background: transparent;
+            color: var(--accent);
+            border-color: var(--accent);
+            transform: scale(1.05);
+        }
+
+        /* Hero section بخلفية من أول صورة في القائمة الأولى */
+        .hero {
+            position: relative;
+            height: 400px;
+            background-image: url('https://i.postimg.cc/vTdPy9YV/5296776303811955477-120.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-bottom: 4px solid var(--accent);
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(10, 29, 55, 0.6);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+        .hero-content h2 {
+            font-size: 2.8rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .hero-btns {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .hero-btn {
+            background: var(--accent);
+            color: var(--primary);
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 1rem;
+            border: 2px solid var(--accent);
+            transition: 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            white-space: nowrap;
+            min-width: 140px;
+        }
+        .hero-btn:hover {
+            background: transparent;
+            color: var(--accent);
+            transform: translateY(-3px);
+        }
+        .hero-btn-outline {
+            background: transparent;
+            color: var(--accent);
+        }
+
+        /* قسم الصور البارزة (من القائمة الأولى) */
+        .featured-section {
+            padding: 3rem 5% 1rem;
+            background: var(--primary);
+        }
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .featured-item {
+            position: relative;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 2px solid var(--accent);
+            transition: 0.3s;
+        }
+        .featured-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-md);
+        }
+        .featured-item img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+        .featured-item:hover img {
+            transform: scale(1.05);
+        }
+        .featured-label {
+            padding: 1.2rem;
+            text-align: center;
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: var(--white);
+        }
+
+        /* قسم باقي الصور (القائمة الثانية) */
+        .gallery-section {
+            padding: 3rem 5%;
+            background: var(--primary);
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        .section-title h2 {
+            font-size: 2rem;
+            color: var(--white);
+            font-weight: 900;
+        }
+        .accent {
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+            margin: 0.5rem auto 0;
+            border-radius: 2px;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            position: relative;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 15px;
+            overflow: hidden;
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            transition: 0.3s;
+        }
+        .gallery-item:hover {
+            transform: translateY(-8px);
+            border-color: var(--accent);
+            background: rgba(255,255,255,0.15);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .gallery-label {
+            padding: 1rem;
+            text-align: center;
+            font-weight: 700;
+            color: var(--white);
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+
+        /* العلامة المائية */
+        .watermark {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            text-align: center;
+            padding: 8px 5px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 0 rgba(0,0,0,0.5), 4px 4px 0 rgba(0,0,0,0.3);
+            border-top: 2px solid var(--accent);
+            border-bottom: 2px solid var(--accent);
+            z-index: 5;
+            pointer-events: none;
+        }
+
+        /* مميزات السواتر */
+        .features-section {
+            padding: 3rem 5%;
+            background: var(--primary);
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .feature-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            border: 1px solid rgba(197,160,89,0.3);
+            transition: 0.3s;
+        }
+        .feature-item:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        .feature-item h3 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        .feature-item p {
+            color: #ddd;
+        }
+
+        /* قسم الكلمات المفتاحية */
+        .keywords-section {
+            padding: 3rem 5%;
+            background: var(--primary);
+        }
+        .keywords-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .keyword-tag {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            transition: 0.3s;
+        }
+        .keyword-tag:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+
+        /* فوتر */
+        .footer {
+            background: var(--primary);
+            padding: 3rem 5% 1.5rem;
+            border-top: 4px solid var(--accent);
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .footer-col h3 {
+            color: var(--accent);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .footer-col p, .footer-col a {
+            color: #ccc;
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+        .footer-col a:hover {
+            color: var(--accent);
+        }
+        .social-footer {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-footer a {
+            background: rgba(255,255,255,0.1);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .social-footer a:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 1.5rem;
+            text-align: center;
+            color: #aaa;
+        }
+
+        /* أزرار عائمة */
+        .floating-buttons {
+            position: fixed;
+            bottom: 30px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 2000;
+        }
+        .float-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 26px;
+            box-shadow: var(--shadow-md);
+            transition: 0.3s;
+        }
+        .float-btn:hover {
+            transform: scale(1.1) translateY(-5px);
+        }
+        .whatsapp-float { background: #25d366; }
+        .phone-float { background: var(--primary); border: 2px solid var(--accent); }
+
+        @media (max-width: 768px) {
+            .hero { height: 350px; }
+            .hero-content h2 { font-size: 2rem; }
+            .hero-content p { font-size: 1rem; }
+            .brand-text h1 { font-size: 1rem; }
+            .call-btn span { display: none; }
+            .hero-btn { min-width: 120px; font-size: 0.9rem; }
+            .watermark { font-size: 0.8rem; }
+            .featured-grid { grid-template-columns: 1fr; }
+            .featured-item img { height: 250px; }
+        }
+        @media (max-width: 480px) {
+            .hero-btn { min-width: 100px; font-size: 0.8rem; }
+            .watermark { font-size: 0.7rem; padding: 5px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <a href="tel:0551987351" class="phone"><i class="fas fa-phone-alt"></i> 0551987351</a>
+        <div class="social-icons">
+            <a href="https://wa.me/966551987351" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@ahsa.shades" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/al_ahsa_mizalaat" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/solomons456" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/share/17bH96Jg11/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </div>
+
+    <header>
+        <div class="brand">
+            <img src="https://i.postimg.cc/BQkFk3MH/m1jpg.jpg" alt="شعار مؤسسة خيام مظلات سواتر الأحساء" class="logo-img">
+            <div class="brand-text">
+                <h1>سواتر حديد وليزر</h1>
+                <p>خيام - مظلات - سواتر | الأحساء 2026</p>
+            </div>
+        </div>
+        <a href="tel:0551987351" class="call-btn"><i class="fas fa-phone-alt"></i> <span>اتصل الآن</span></a>
+    </header>
+
+    <!-- Hero section بخلفية من الصورة الأولى -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>أعمال السواتر</h2>
+            <p>مجموعة كبيرة من صور تنفيذاتنا للسواتر بمختلف أنواعها في الأحساء</p>
+            <div class="hero-btns">
+                <a href="tel:0551987351" class="hero-btn"><i class="fas fa-phone-alt"></i> اتصل الآن</a>
+                <a href="https://wa.me/966551987351" class="hero-btn hero-btn-outline"><i class="fab fa-whatsapp"></i> واتساب</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الصور البارزة (القائمة الأولى) -->
+    <section class="featured-section">
+        <div class="section-title">
+            <h2>أحدث تصاميم السواتر</h2>
+            <div class="accent"></div>
+        </div>
+        <div class="featured-grid" id="featuredContainer"></div>
+    </section>
+
+    <!-- قسم باقي الصور (القائمة الثانية + باقي الصور) -->
+    <section class="gallery-section">
+        <div class="section-title">
+            <h2>المزيد من أعمال السواتر</h2>
+            <div class="accent"></div>
+        </div>
+        <div class="gallery-grid" id="galleryContainer"></div>
+    </section>
+
+    <section class="features-section">
+        <div class="section-title">
+            <h2>أنواع السواتر التي ننفذها</h2>
+            <div class="accent"></div>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-border-all"></i></div>
+                <h3>سواتر حديد</h3>
+                <p>سواتر حديد مشغول وشرائح بأعلى جودة.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-grip-lines"></i></div>
+                <h3>سواتر ليزر</h3>
+                <p>تصاميم عصرية وجذابة بالقطع بالليزر.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-tree"></i></div>
+                <h3>سواتر خشبية</h3>
+                <p>للخصوصية والجمال في الحدائق والفلل.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-tshirt"></i></div>
+                <h3>سواتر قماش</h3>
+                <p>للخصوصية المؤقتة والمناسبات.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="keywords-section">
+        <div class="section-title">
+            <h2>خدمات السواتر في الأحساء</h2>
+            <div class="accent"></div>
+        </div>
+        <div class="keywords-container">
+            <span class="keyword-tag">سواتر الأحساء</span>
+            <span class="keyword-tag">سواتر الهفوف</span>
+            <span class="keyword-tag">سواتر المبرز</span>
+            <span class="keyword-tag">سواتر حديد</span>
+            <span class="keyword-tag">سواتر ليزر</span>
+            <span class="keyword-tag">سواتر خشبية</span>
+            <span class="keyword-tag">سواتر قماش</span>
+            <span class="keyword-tag">تركيب سواتر</span>
+            <span class="keyword-tag">أفضل سواتر</span>
+            <span class="keyword-tag">مقاول سواتر</span>
+            <span class="keyword-tag">سواتر خصوصية</span>
+            <span class="keyword-tag">سواتر فلل</span>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>عن المؤسسة</h3>
+                <p>متخصصون في السواتر بكافة أنواعها بأعلى جودة في الأحساء والمنطقة الشرقية. تنفيذ أكثر من 100 مشروع.</p>
+                <div class="social-footer">
+                    <a href="https://wa.me/966551987351"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com/@ahsa.shades"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/al_ahsa_mizalaat"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/solomons456"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/share/17bH96Jg11/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <p><a href="index.html">الرئيسية</a></p>
+                <p><a href="hangars.html">هناجر</a></p>
+                <p><a href="shades.html">مظلات</a></p>
+                <p><a href="tents.html">خيام</a></p>
+                <p><a href="pergolas.html">برجولات</a></p>
+                <p><a href="tiles.html">قرميد</a></p>
+            </div>
+            <div class="footer-col">
+                <h3>اتصل بنا</h3>
+                <p><i class="fas fa-phone"></i> 0551987351</p>
+                <p><i class="fab fa-whatsapp"></i> 0551987351</p>
+                <p><i class="fas fa-map-marker-alt"></i> الأحساء، الهفوف</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 خيام - مظلات - سواتر | تصميم سليمان الحكمي</p>
+        </div>
+    </footer>
+
+    <div class="floating-buttons">
+        <a href="https://wa.me/966551987351" class="float-btn whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:0551987351" class="float-btn phone-float"><i class="fas fa-phone-alt"></i></a>
+    </div>
+
+    <script>
+        // قائمة الصور البارزة (القائمة الأولى - تم تنظيف الروابط المعطلة)
+        const featuredImages = [
+            "https://i.postimg.cc/vTdPy9YV/5296776303811955477-120.jpg",
+            "https://i.postimg.cc/QCr6D58Q/5296776303811955478-120.jpg",
+            "https://i.postimg.cc/d3KWFds8/5296776303811955480-121.jpg",
+            "https://i.postimg.cc/vTdPy9Y5/5296776303811955481-120.jpg",
+            "https://i.postimg.cc/Kjy9bLGL/5296776303811955482-121.jpg",
+            "https://i.postimg.cc/cCNDWYxw/5296776303811955483-121.jpg",
+            "https://i.postimg.cc/1XZWS6mN/5296776303811955484-120.jpg",
+            "https://i.postimg.cc/wMdWzJqR/5296776303811955485-121.jpg",
+            "https://i.postimg.cc/wMdWzJq3/5296776303811955486-119.jpg",
+            "https://i.postimg.cc/nrtdx7Fs/5296776303811955487-121.jpg",
+            "https://i.postimg.cc/d3KWFds3/5296776303811955489-121.jpg",
+            "https://i.postimg.cc/J0WT8Jrn/5296776303811955490-121.jpg",
+            "https://i.postimg.cc/RhzPmfSN/5296776303811955491-121.jpg",
+            "https://i.postimg.cc/PJk6HZXT/5296776303811955496-120.jpg",
+            "https://i.postimg.cc/Y0wX7grq/5296776303811955497-120.jpg",
+            "https://i.postimg.cc/mkGd4MLr/5296776303811955498-120.jpg",
+            "https://i.postimg.cc/90jx2Tmc/5348356309826342713-121.jpg",
+            "https://i.postimg.cc/50zPDpVt/IMG-20260116-WA0013.jpg",
+            "https://i.postimg.cc/4yT8GtfG/IMG-20260116-WA0014.jpg",
+            "https://i.postimg.cc/TwbkBQ6T/IMG-20260118-WA0006.jpg",
+            "https://i.postimg.cc/fLdH15NT/IMG-20260118-WA0007.jpg",
+            "https://i.postimg.cc/xCmsBg2f/IMG-20260118-WA0008.jpg",
+            "https://i.postimg.cc/JnXTSKLM/IMG-20260118-WA0009.jpg",
+            "https://i.postimg.cc/V6t72481/s.jpg",
+            "https://i.postimg.cc/ZRNfXjSz/s1.jpg",
+            "https://i.postimg.cc/XJ52txbW/s11.jpg",
+            "https://i.postimg.cc/k4SjLwmm/s3.jpg",
+            "https://i.postimg.cc/ydRf2nzM/s4.jpg",
+            "https://i.postimg.cc/LXPyGvpK/s5.jpg",
+            "https://i.postimg.cc/mD9dKVsg/slider1.jpg",
+            "https://i.postimg.cc/rm4h7gkL/swatr.jpg"
+        ];
+
+        // قائمة الصور الإضافية (القائمة الثانية + الباقي - مع استبعاد المعطلة)
+        const additionalImages = [
+            "https://i.postimg.cc/fTSNwt7h/176eee6883d22e4a318ef54f224a7257.webp",
+            "https://i.postimg.cc/tRMbQtxf/9c1d148837292614f54245b47892e637.webp",
+            "https://i.postimg.cc/NGztq7XB/ab82277360278685b9390ec1413b126f-1.webp",
+            "https://i.postimg.cc/DfMhkdG7/c12fafad4c7636564831cf3afecb900b-576x1024.webp",
+            "https://i.postimg.cc/2jKYRFZX/c231626a8507dff2adff71acf83c10c5-1.webp",
+            // تم استبعاد الرابط المعطل d0755e19...
+            "https://i.postimg.cc/7PW48Mzv/d27d4336fda066eaba42a9e490a264da-8.webp",
+            "https://i.postimg.cc/66mKJLvk/d4c566c14b5bb7b004b37db10c5e0195-3.webp",
+            "https://i.postimg.cc/J728VcXr/ee7b2eee09095e052f6d770b12c5f722.webp",
+            "https://i.postimg.cc/fWrsnjdb/f4261b3ad762419aeb51b6a7a68bda28.webp",
+            "https://i.postimg.cc/nrgf4pxQ/IMG-20240421-WA0001.webp",
+            "https://i.postimg.cc/6qgxrtKv/IMG-20240421-WA0004.webp",
+            "https://i.postimg.cc/Rhyx74m3/IMG-20240421-WA0009.webp",
+            "https://i.postimg.cc/C5XpGS0d/IMG-20240421-WA0011.webp",
+            "https://i.postimg.cc/WzCcGTVz/IMG-20240421-WA0012.webp",
+            "https://i.postimg.cc/PJ9nWTHC/IMG-20240421-WA0018.webp",
+            "https://i.postimg.cc/PJ9nWTHx/IMG-20240421-WA0019.webp",
+            "https://i.postimg.cc/MHNJ7qwq/IMG-20240421-WA0020.webp",
+            "https://i.postimg.cc/hv6RLcnS/IMG-20240421-WA0022.webp",
+            "https://i.postimg.cc/NFSv6Bt0/IMG-20240421-WA0023.webp",
+            "https://i.postimg.cc/mkJWYB4g/IMG-20240421-WA0024.webp",
+            "https://i.postimg.cc/pr4MfRvP/IMG-20240421-WA0025.webp",
+            "https://i.postimg.cc/brWfxpPh/IMG-20240421-WA0026.webp",
+            "https://i.postimg.cc/HWhmD4y3/mqawl-swatr-fy-alahsa-10.webp",
+            "https://i.postimg.cc/fWrsnj9C/mqawl-swatr-fy-alahsa-12.webp",
+            "https://i.postimg.cc/NGztq7H4/mqawl-swatr-fy-alahsa-13.webp",
+            "https://i.postimg.cc/brWfxpPb/mqawl-swatr-fy-alahsa-14.webp",
+            "https://i.postimg.cc/BbkfT43F/mqawl-swatr-fy-alahsa-15.webp",
+            // تم استبعاد الرابط المعطل mqawl-swatr-fy-alahsaʾ-7.webp
+            "https://i.postimg.cc/pV6vbYFG/mqawl-swatr-fy-alahsa-8.webp",
+            "https://i.postimg.cc/FFBv5gLP/mqawl-swatr-fy-alahsa-9.jpg"
+        ];
+
+        // مجموعة كلمات مفتاحية متنوعة للعناوين
+        const titleKeywords = [
+            "سواتر حديد في الأحساء",
+            "تركيب سواتر بجودة عالية",
+            "أفضل سواتر ليزر",
+            "سواتر خشبية حديثة",
+            "مقاول سواتر بالشرقية",
+            "سواتر خصوصية للمنازل",
+            "سواتر قماش متحركة",
+            "ارخص اسعار السواتر",
+            "سواتر فلل وقصور",
+            "تنفيذ سواتر حدائق",
+            "محل تركيب سواتر",
+            "سواتر مداخل واستراحات",
+            "حداد سواتر محترف",
+            "سواتر حماية وأمان",
+            "سواتر ليزر مودرن",
+            "أفضل سواتر خارجية",
+            "سواتر شرائح حديد",
+            "تصميم سواتر عصرية",
+            "سواتر للمسابح",
+            "سواتر مقاومة للصدأ",
+            "افضل حداد سواتر بالاحساء",
+            "سواتر حفر ليزر",
+            "سواتر قماش متعددة الألوان",
+            "سواتر بجودة ممتازة",
+            "تركيب سواتر الهفوف",
+            "سواتر المبرز بأقل سعر",
+            "سواتر خشب صناعي",
+            "سواتر مودرن 2026"
+        ];
+
+        // دالة لإنشاء عنصر صورة مع العلامة المائية
+        function createImageItem(url, isFeatured = false, keywordIndex) {
+            const item = document.createElement('div');
+            item.className = isFeatured ? 'featured-item' : 'gallery-item';
+            
+            const img = document.createElement('img');
+            img.src = url;
+            img.alt = titleKeywords[keywordIndex];
+            img.loading = 'lazy';
+            img.onerror = function() { this.parentElement.style.display = 'none'; }; // إخفاء الصورة إذا فشل تحميلها
+            
+            const watermark = document.createElement('div');
+            watermark.className = 'watermark';
+            watermark.textContent = '0551987351 | خيام - مظلات - سواتر';
+            
+            const label = document.createElement('div');
+            label.className = isFeatured ? 'featured-label' : 'gallery-label';
+            label.textContent = titleKeywords[keywordIndex];
+            
+            item.appendChild(img);
+            item.appendChild(watermark);
+            item.appendChild(label);
+            
+            return item;
+        }
+
+        const featuredContainer = document.getElementById('featuredContainer');
+        const galleryContainer = document.getElementById('galleryContainer');
+
+        // إضافة الصور البارزة
+        featuredImages.forEach((url, index) => {
+            if (url && !url.endsWith('/')) {
+                const keywordIndex = index % titleKeywords.length;
+                const item = createImageItem(url, true, keywordIndex);
+                featuredContainer.appendChild(item);
+            }
+        });
+
+        // إضافة باقي الصور
+        additionalImages.forEach((url, index) => {
+            if (url && !url.endsWith('/')) {
+                const keywordIndex = (index + featuredImages.length) % titleKeywords.length;
+                const item = createImageItem(url, false, keywordIndex);
+                galleryContainer.appendChild(item);
+            }
+        });
+    </script>
+</body>
+</html>

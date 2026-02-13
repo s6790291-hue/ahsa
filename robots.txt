@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /temp/
+Disallow: /test/
+Disallow: /cgi-bin/
+
+# الصور مسموح بها بالكامل
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
+
+Crawl-delay: 1
+
+# رابط خريطة الموقع (محدث)
+Sitemap: https://ahsashades-coder.github.io/ahsa/sitemap.xml
+
+# Google Images - مسموح بالصور
+User-agent: Googlebot-Image
+Allow: /
+
+# أرشفة الويب - مسموح بها
+User-agent: ia_archiver
+Allow: /
+
+# حظر الروبوتات السيئة فقط
+User-agent: BadBot
+Disallow: /
+
+User-agent: MJ12bot
+Crawl-delay: 2
